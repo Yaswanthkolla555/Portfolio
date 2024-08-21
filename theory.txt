@@ -1,0 +1,51 @@
+-**npm rub dev
+
+then fonts->npm i @fontsource/roboto @fontsource/outfit
+import install fonts ointo our main.jsx file        
+
+-->CSS->if we have same  css names for diffrent files 
+then they will overirde eachother even thiiugh they are diffrent files
+to avoid this we use css modules
+
+->to use css modules in our react app -->in vite.config add,these lines
+export default defineConfig({
+  plugins: [react()],
+  css:{
+    modules:{
+      localsConvention:"camelCase"
+    }
+  }
+})
+
+and change then name of css file name
+
+->To create css variables
+we ccan use root and we can create a vars css file-->:root
+
+->to apply css for every elemnt in the webpage we can write it in index.css and to target every elem =-->use *
+
+box-sizing: border-box;->means border is consider wheb ever we calucalte ,widhth and heoght of the object
+
+we should import css modeules like this and use like i mentionede below
+import styles from "./App.module.css"
+
+const App = () => {
+  return (
+    <div className={styles.App}>hello world</div>
+  )
+}
+
+and in css file we need to impirt vars,css in css files to use variabels
+
+to use images -->create a utils function
+
+*******need to check utlis file code -->it is presnet at 1st modeules last .
+to add functionality of buttonin reactjs use usestate  efeectively
+
+
+-->in ul when we do  string inrterpolatiojn in classname-->`${}`- allows us to use other calssname 
+
+and when we click on a li nin navbar we need ot drect it to the section and need to close the navbar mennu
+
+----->need to linear linear gradient and css properties
+

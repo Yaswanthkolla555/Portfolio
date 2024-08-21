@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Food Delivery Website",
+      "imageSrc": "projects/project.png",
+      "description": "A full-stack web application for ordering food. Users can browse various categories, and the admin can manage food types",
+      "skills": ["React", "Express", "Node","MongoDb","JWT"],
+      "demo": "",
+      "source": "https://github.com/Yaswanthkolla555/FoodDeliveryApp"
+    },
+    {
+      "title": "NewsApp-Api-React",
+      "imageSrc": "projects/project.png",
+      "description": "Created a news platform with 100+ daily articles, categorized by Entertainment, Sports, and General, with infinite scroll and light/dark modes.",
+      "skills": ["React", "JavaScript", "Boostrap","CSS"],
+      "demo": "",
+      "source": "https://github.com/Yaswanthkolla555/NewsApp-Api-React"
+    },
+    {
+      "title": "Live Chat",
+      "imageSrc": "projects/project.png",
+      "description": "Developed a live chat application allowing real-time messaging and seamless communication between users.",
+      "skills": ["Node","JavaScript","Socket.io"],
+      "demo": "",
+      "source": "https://github.com/Yaswanthkolla555/LiveChat"
+    }
+  ]
