@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
         ))}
       </ul>
       <div className={styles.links}>
-        <a onClick={handleDemoClick} className={styles.link} href={demo || "#"}>Demo</a>
+        <a onClick={handleDemoClick} className={styles.link} href={demo || "#"} target="_blank">Demo</a>
         <a className={styles.link} href={source} target="_blank">Source</a>
       </div>
       <ToastContainer />

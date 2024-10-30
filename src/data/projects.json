@@ -4,7 +4,7 @@
       "imageSrc": "projects/project.png",
       "description": "A full-stack web application for ordering food. Users can browse various categories, and the admin can manage food types",
       "skills": ["React", "Express", "Node","MongoDb","JWT"],
-      "demo": "",
+      "demo": "https://fooddeliveryapp-frontend-oh6b.onrender.com",
       "source": "https://github.com/Yaswanthkolla555/FoodDeliveryApp"
     },
     {
@@ -16,11 +16,19 @@
       "source": "https://github.com/Yaswanthkolla555/NewsApp-Api-React"
     },
     {
-      "title": "Live Chat",
+      "title": "Face Mask Detection",
       "imageSrc": "projects/project.png",
-      "description": "Developed a live chat application allowing real-time messaging and seamless communication between users.",
-      "skills": ["Node","JavaScript","Socket.io"],
+      "description": "Developed a Face Mask Detection system with a CNN model, achieving over 95% training and 94% validation accuracy to enhance public safety.",
+      "skills": ["Python","TensorFlow","CNN","Matplotlib"],
       "demo": "",
-      "source": "https://github.com/Yaswanthkolla555/LiveChat"
+      "source": "https://github.com/Yaswanthkolla555/FaceMaskDetectionML"
+    },
+    {
+      "title": "Plant Disease Recognition",
+      "imageSrc": "projects/project.png",
+      "description": "Developed a Plant Disease Recognition system with TensorFlow, achieving 98.4% training and 97.3% validation accuracy for effective disease identification.",
+      "skills": ["Python","TensorFlow","CNN"],
+      "demo": "",
+      "source": "https://github.com/Yaswanthkolla555/PlantDiseaseRecognition"
     }
   ]

@@ -26,9 +26,11 @@ const About = () => {
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Software Developer</h3>
-                        <p>I'm a Software Developer with experience in creating responsive and optimized web applications across both frontend and backend technologies. I also have strong knowledge in Data Structures and Algorithms (DSA) and Object-Oriented Programming (OOPS).</p>
-                        </div>
+                        <h3>Machine Learning Developer</h3>
+                             <p>
+                                I'm a Machine Learning Developer with experience in creating responsive and optimized web applications. I specialize in developing and integrating machine learning models for tasks such as image classification and plant disease detection. I have strong knowledge in Data Structures and Algorithms (DSA), Object-Oriented Programming (OOPs), and expertise in Python, TensorFlow, and scikit-learn.
+                             </p>
+                    </div>
                 </li>
             </ul>
         </div>
