@@ -9,6 +9,6 @@ Currently, two official plugins are available:
 
 ## Live Demo
 
-[Click here to view the live demo](https://vermillion-panda-cad020.netlify.app/)
+[Click here to view the live demo]([https://vermillion-panda-cad020.netlify.app/](https://portfolio-x4qd.onrender.com))
 
 By clicking the link above, you can view the live demo of my portfolio hosted on Netlify.
