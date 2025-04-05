@@ -1,19 +1,28 @@
 [
     {
       "title": "Food Delivery Website",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/Swiggato.png",
       "description": "A full-stack web application for ordering food. Users can browse various categories, and the admin can manage food types",
-      "skills": ["React", "Express", "Node","MongoDb","JWT"],
+      "skills": ["React", "Express", "Node", "MongoDb", "JWT"],
       "demo": "https://fooddeliveryapp-frontend-oh6b.onrender.com",
+      "pingUrl": "https://fooddeliveryapp-backend-xeb9.onrender.com",
       "source": "https://github.com/Yaswanthkolla555/FoodDeliveryApp"
-    },
+    },  
     {
       "title": "NewsApp-Api-React",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/NewsApp.png",
       "description": "Created a news platform with 100+ daily articles, categorized by Entertainment, Sports, and General, with infinite scroll and light/dark modes.",
       "skills": ["React", "JavaScript", "Boostrap","CSS"],
       "demo": "",
       "source": "https://github.com/Yaswanthkolla555/NewsApp-Api-React"
+    },
+    {
+      "title": "Startup Pitch Hub",
+      "imageSrc": "projects/YK_Directory.png",
+      "description": "A Next.js 15 platform where entrepreneurs submit and explore startup ideas for virtual pitch competitions. Features GitHub auth, live content via Sanity, pitch submission, dynamic browsing and a clean minimal UI.",
+      "skills": ["TypeScript", "Next.js", "React", "Tailwind CSS", "Sanity", "Shadcn UI"],
+      "demo": "https://yk-directory.vercel.app/",
+      "source": "https://github.com/Yaswanthkolla555/YK_Directory"
     },
     {
       "title": "Face Mask Detection",
@@ -31,4 +40,5 @@
       "demo": "",
       "source": "https://github.com/Yaswanthkolla555/PlantDiseaseRecognition"
     }
+    
   ]

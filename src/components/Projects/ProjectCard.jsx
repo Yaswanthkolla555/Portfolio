@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ProjectCard = ({ project }) => {
-  const { title, imageSrc, description, skills, demo, source } = project;
+  const { title, imageSrc, description, skills, demo, source, pingUrl } = project;
 
   const notify = (message) => toast(message);
 
@@ -14,6 +14,12 @@ const ProjectCard = ({ project }) => {
     if (!demo) {
       e.preventDefault();
       notify("Demo Not Available!");
+    } else {
+      // Ping backend silently (no CORS error)
+      if (pingUrl) {
+        fetch(pingUrl, { method: "GET", mode: "no-cors" })
+          .catch((err) => console.error("Ping failed:", err));
+      }
     }
   };
 

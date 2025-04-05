@@ -27,11 +27,22 @@ const About = () => {
                     <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Machine Learning Developer</h3>
-                             <p>
-                                I'm a Machine Learning Developer with experience in creating responsive and optimized web applications. I specialize in developing and integrating machine learning models for tasks such as image classification and plant disease detection. I have strong knowledge in Data Structures and Algorithms (DSA), Object-Oriented Programming (OOPs), and expertise in Python, TensorFlow, and scikit-learn.
-                             </p>
+                        <p>
+                        Skilled in building ML models for tasks like image classification and plant disease detection. Completed certifications in supervised, unsupervised learning, and CNNs.
+                        </p>
                     </div>
                 </li>
+
+                <li className={styles.aboutItem}>
+                    <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
+                    <div className={styles.aboutItemText}>
+                        <h3>Competitive Programmer</h3>
+                        <p>
+                        Solved 800+ problems across various platforms. Strong grasp of DSA and OOPs with solid experience in C++ and C.
+                        </p>
+                    </div>
+                </li>
+
             </ul>
         </div>
     </section>

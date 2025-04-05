@@ -26,5 +26,25 @@
     {
       "title": "Express",
       "imageSrc": "skills/express.png"
+    },
+    {
+      "title": "TypeScript",
+      "imageSrc": "skills/typescript.png"
+    },
+    {
+      "title": "Next.js ",
+      "imageSrc": "skills/Next.js.png"
+    },
+    {
+      "title": "Tailwind CSS",
+      "imageSrc": "skills/tailwind.png"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "skills/Git.png"
+    },
+    {
+      "title": "GitHub",
+      "imageSrc": "skills/GitHub.png"
     }
   ]
